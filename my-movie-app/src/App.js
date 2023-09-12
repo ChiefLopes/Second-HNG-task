@@ -4,7 +4,8 @@ import Home from "./Components/Home";
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
+          <h1 className="text-sm">fit</h1>
       <MovieBanner />
           <Home />
          
