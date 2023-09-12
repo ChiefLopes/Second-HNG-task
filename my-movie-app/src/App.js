@@ -1,12 +1,12 @@
 import "./App.css";
 import MovieBanner from "./Components/MovieBanner";
-import Movies from "./Components/Movies";
+import Home from "./Components/Home";
 
 function App() {
   return (
     <div className="App">
       <MovieBanner />
-      <Movies />
+      <Home />
     </div>
   );
 }

@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
+import Movies from "./Home";
 
 const MovieBanner = () => {
-  return (
-    <div>
-      Movies
-    </div>
-  )
-}
+  // console.log(Movies);
+  return <div>Movies</div>;
+};
 
-export default MovieBanner
+export default MovieBanner;
