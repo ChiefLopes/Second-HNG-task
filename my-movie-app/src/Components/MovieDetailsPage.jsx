@@ -16,7 +16,7 @@ const MovieDetailsPage = () => {
        .catch((error) => console.error("Error fetching movie details:", error));
   }, [id]);
     
-    console.log(MovieDetailsPage);
+    
 
   if (!movieDetails) {
     return <div>Loading...</div>;
