@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <MovieBanner />
-      <Home />
+          <Home />
+         
     </div>
   );
 }

@@ -6,7 +6,7 @@ const MovieCard = ({ movie }) => {
       <img
         data-testid="movie-poster"
         src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
-        // Replace with the actual poster URL
+      
         alt={movie.title}
         className="mb-2"
       />
