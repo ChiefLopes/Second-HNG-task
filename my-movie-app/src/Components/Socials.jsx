@@ -6,10 +6,10 @@ import youtube from "../assets/svgs/youtube.svg";
 const Socials = () => {
   return (
     <div className="socials">
-      <img className="facebook" src={facebook}  alt={facebook}></img>
-      <img className="instagram" src={instagram} alt=""></img>
-      <img className="twitter" src={twitter} alt=""></img>
-      <img className="facebook" src={youtube}  alt=""></img>
+      <img className="social" src={facebook}  alt={facebook}></img>
+      <img className="social" src={instagram} alt=""></img>
+      <img className="social" src={twitter} alt=""></img>
+      <img className="social" src={youtube}  alt=""></img>
      
     </div>
   );
