@@ -2,7 +2,7 @@ import React from "react";
 
 const MovieCard = ({ movie }) => {
   return (
-    <div data-testid="movie-card" className="p-4 border rounded shadow-md">
+    <div data-testid="movie-card" className="p-4 border-rounded shadow-md">
       <img
         data-testid="movie-poster"
         src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
