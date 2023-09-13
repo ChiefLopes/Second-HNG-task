@@ -16,13 +16,13 @@ const Home = () => {
     
     const top10Movies = topRatedMovies.slice(0,10)
 
-  return (
-    <div className="movie-grid">
-      {top10Movies.map((movie) => (
-        <MovieCard key={movie.id} movie={movie} />
-      ))}
-    </div>
-  );
+    return (
+      <div className="movie-grid">
+            {top10Movies.map((movie) => (
+          <MovieCard key={movie.id} movie={movie} />
+        ))}
+      </div>
+    );
 };
 
 export default Home;

@@ -1,14 +1,13 @@
 import "./App.css";
-import MovieBanner from "./Components/MovieBanner";
 import Home from "./Components/Home";
+import Header from "./Components/Header/Header";
+
 
 function App() {
   return (
-      <div className="App">
-          <h1 className="text-sm">fit</h1>
-      <MovieBanner />
-          <Home />
-         
+    <div className="App">
+      <Header />
+      <Home />
     </div>
   );
 }
