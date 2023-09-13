@@ -25,3 +25,9 @@ code {
 .container {
    padding: 40px;
 }
+
+.socials {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
